@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# BudgeTly
+# BUDGETTY
 
-> BudgeTly is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+> BUDGWTTY is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 ----
 _[Here](https://www.loom.com/share/4bc23cd75bc44f6d8c7563c24c516afd) is the link to the project presentation video_
 
