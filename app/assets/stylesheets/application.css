@@ -1,0 +1,119 @@
+/* stylelint-disable csstree/validator */
+/* stylelint-disable block-closing-brace-newline-after */
+
+/* This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@keyframes move {
+  100% {
+    transform: translate3d(0, 1, 1px) rotate(360deg);
+  }
+}
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.padding {
+  padding: 2.5rem;
+}
+
+.centered {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  width: 22rem;
+  margin: 2%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: contain;
+}
+
+footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  width: 100%;
+  overflow: visible;
+  z-index: 99;
+  height: 55px;
+}
+
+.border-radius-none {
+  border-radius: 0;
+  padding-block: 1rem;
+}
+
+.navbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+h1 {
+  position: relative;
+  top: 134px;
+}
+
+.container-fluid {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 #3778c2;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.text-muted {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.btn-info {
+  color: #434b54;
+  background-color: #3778c2;
+  border-color: #3778c2;
+}
+
+.btn-light {
+  color: #434b54;
+  background-color: #edf0f3;
+  border-color: #f6f6f7;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5fb523;
+  border-color: #5fb523;
+}
