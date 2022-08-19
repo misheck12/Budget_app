@@ -5,13 +5,6 @@
 > BUDGWTTY is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 ----
 
----
-  Splash Screen                                              |  Login Page
-:-----------------------------------------------------------:|:---------------------------------------------------------:
-![screenshot](./app/assets/images/splash_screen.gif)         |   ![screenshot](./app/assets/images/login_page.png)
-  Transactions Page                                          |  Categories Page
-![screenshot](./app/assets/images/transactions_page.png)     |   ![screenshot](./app/assets/images/categories_page.png)
-
 # Getting Started
 
 
@@ -19,7 +12,7 @@ _To get a local copy up and running follow these simple steps._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Chimwemwe-127001/budget-app.git
+   git clone https://github.com/misheck12/Budget_app.git
    ```
 2. Goto project directory
    ```sh
